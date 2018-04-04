@@ -2,9 +2,9 @@
 package praktek03;
 
 public class bapak {
-    String nama;
-    String hobi;
-    String makananfavorit;
+  private  String nama;
+  private  String hobi;
+  private  String makananfavorit;
     
     void cetakinfo(){
             System.out.println("nama \t: "+nama+"\n"+
