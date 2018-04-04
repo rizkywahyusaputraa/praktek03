@@ -1,6 +1,6 @@
 
 package praktek03;
 
-public class anaksidin {
+public class anaksidin extends {
     
 }
