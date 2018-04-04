@@ -17,6 +17,14 @@ public class bapakaksi {
         System.out.println(b.getHobi());
         System.out.println("makanan kesukaan sidin adalah \t:  ");
         System.out.println(b.getMakananfavorit());
+        
+        anaksidin as = new anaksidin();
+            
+        as.setNama("Fitriani");
+        as.setHobi("Membca Novel");
+        as.setMakananfavorit("Piza");
+        as.setNama_anak(nama_anak);
+            as.cetakinfo();
     }
-    
+
 }
