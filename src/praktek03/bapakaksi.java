@@ -9,7 +9,9 @@ public class bapakaksi {
         b.setHobi("Membaca Koran Banjarmasin Post");
         b.setMakananfavorit("Bakso,Pecel,Ayam Geprek");
         
+                
         b.cetakinfo();
+        
         
         System.out.println("Nama Sidin adalah \t:  ");
         System.out.println(b.getNama());
@@ -23,8 +25,11 @@ public class bapakaksi {
         as.setNama("Fitriani");
         as.setHobi("Membca Novel");
         as.setMakananfavorit("Piza");
-        as.setNama_anak(nama_anak);
+        as.setNama_anak1("Ridho  Mustafa");
             as.cetakinfo();
+            
+            System.out.println("nama anak pertama \t :"+as.getNama_anak1());
+            as.throttle();
     }
 
 }
