@@ -10,6 +10,13 @@ public class bapakaksi {
         b.setMakananfavorit("Bakso,Pecel,Ayam Geprek");
         
         b.cetakinfo();
+        
+        System.out.println("Nama Sidin adalah \t:  ");
+        System.out.println(b.getNama());
+        System.out.println("Hobi Sidin sekalinya \t: ");
+        System.out.println(b.getHobi());
+        System.out.println("makanan kesukaan sidin adalah \t:  ");
+        System.out.println(b.getMakananfavorit());
     }
     
 }
