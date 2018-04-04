@@ -4,9 +4,10 @@ package praktek03;
 public class bapakaksi {
     public static void main(String[] args) {
         bapak b = new bapak();
-        b.nama ="Rizky wahyu saputra";
-        b.hobi ="Membaca Koran";
-        b.makananfavorit ="Bakso+nasi";
+        
+        b.setNama("Rizky wahyu saputra");
+        b.setHobi("Membaca Koran Banjarmasin Post");
+        b.setMakananfavorit("Bakso,Pecel,Ayam Geprek");
         
         b.cetakinfo();
     }
